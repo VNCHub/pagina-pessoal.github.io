@@ -1,0 +1,32 @@
+
+.projects__list {
+    display: flex;
+}
+
+.projects__item {
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 2.5%;
+    width: 20%;
+    list-style: none;
+    border: gray solid 1px;
+    border-radius: 10px;
+}
+
+.projects__item:hover {
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.projects__link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.projects__link:active {
+    color: red;
+}
+
+.projects__image {
+    max-width: 100%;
+}

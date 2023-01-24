@@ -1,11 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/background-main.jpg");
+}
+
+.body {
+    background: #fffff8;
+    margin: 0px 15%;
+    padding: 30px 30px;
+
+}
 
 .header {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
-    background: #fafafa;
-    margin: 30px 0  ;
-    padding: 10px 200px;
+    margin: 15px 0;
 }
 
 .header__personal-photo {
@@ -17,54 +25,28 @@
     margin-left: 30px;
 }
 
-.main {
-    background-image: url("../img/background-main.jpg");
-    font-family: 'Montserrat', sans-serif;
-}
-
 .subtitle {
     margin: 30px 0;
 }
 
-.content {
-    background: #fafafa;
-    margin: 30px 10%;
-    padding: 30px 30px;
-}
-
-.projects__list {
-    display: flex;
-}
-
-.projects__item {
-    text-align: center;
-    padding: 10px 10px;
-    margin: 0 2.5%;
-    width: 20%;
-    list-style: none;
-    border: gray solid 1px;
-    border-radius: 10px;
-}
-
-.projects__item:hover {
-    border: gray solid 2px;
-    background: rgb(235, 235, 235);
-    cursor: pointer;
-}
-
-.projects__link {
+.resume__link {
     text-decoration: none;
     color: #222222;
 }
 
-.projects__link:active {
-    color: red;
-}
-
-.projects__image {
-    max-width: 100%;
-}
-
 .contact__list__item {  
     list-style: none;
+}
+
+.contact__image {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.contact__link {
+    text-decoration: none;
+}
+
+.contact__link:hover {
+    text-decoration: underline;
 }
