@@ -18,7 +18,7 @@
 }
 
 .main {
-    background-image: url("../img/background1.jpg");
+    background-image: url("../img/background-main.jpg");
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .projects__image {
-    max-width: 280px;
+    max-width: 100%;
 }
 
 .contact__list__item {  
